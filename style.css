@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothind: grayscale;
+}
+
+body{
+    background: url(./assets/fundo.jpg);
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.176);
+}
+
+#img img{
+    height: 120px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+#top span{
+    cursor: pointer;
+    padding: 0px 5px 0px 5px;
+    text-decoration: none;
+}
+
+#top span:hover{
+    text-decoration: underline;
+}
+
+#top .loguin:hover{
+    border: 2px solid white;
+}
+
+.loguin{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 999px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#mid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+#mid img{
+    height: 40%;
+    width: 35%;
+    margin: 0px 80px 0px 0px;
+}
+
+.titulo h1{
+    color: rgb(255, 255, 255);
+    margin-left: 200px;
+    height: 20%;
+    width: 20%;
+}
+
+.titulo h2{
+    color: rgb(255, 255, 255);
+    height: 60%;
+    width: 60%;
+    margin-left: 160px;
+    padding: 40px;
+}
+
+.titulo span{
+    color: white;
+    text-align: center;
+    height: 50%;
+    width: 40%;
+    padding: 20px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 999px;
+    margin-left: 200px;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#mid .titulo span:hover{
+    text-decoration: underline;
+}
